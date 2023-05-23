@@ -1,0 +1,327 @@
+@media screen and (max-width: 640px) {
+  .page1 {
+    flex-direction: column;
+  }
+
+  .page1__left {
+    padding: 50px;
+  }
+
+  .page4-logos {
+    grid-template-columns: 1fr;
+  }
+
+  .page5-textures {
+    grid-template-columns: 1fr;
+  }
+
+  .red-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page7-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .footer-top {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  header {
+    justify-content: flex-start;
+  }
+
+  .page4-logos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page5-textures {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page5__texture {
+    text-align: center;
+  }
+
+  .page5-left {
+    display: flex;
+    gap: 20px;
+  }
+
+  .red-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .page6__input {
+    width: 100%;
+  }
+
+  .page7-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    justify-content: flex-start;
+  }
+
+  .page3-right {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page4 {
+    padding: 3rem;
+  }
+
+  .page4-logos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page5-textures {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page5-left {
+    margin: 0 auto;
+  }
+
+  .red-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .page6__input {
+    width: 100%;
+  }
+
+  .page7-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page1__left {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page1__right img {
+    height: 100%;
+  }
+
+  .page3-right {
+    grid-template-columns: 1fr;
+  }
+
+  .page4 {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    height: 0;
+  }
+
+  .modal {
+    width: 430px;
+  }
+
+  nav {
+    height: 100%;
+    padding: 0;
+    position: relative;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .burger-mobile {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 30px;
+  }
+
+  .logo-wrapper {
+    width: 50%;
+  }
+
+  .arrow-left {
+    display: none;
+  }
+
+  .arrow-right {
+    display: none;
+  }
+
+  .header__list-screen {
+    display: none;
+  }
+
+  .header__list {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0;
+    gap: 10px;
+    width: 80%;
+  }
+
+  .header__box {
+    padding: 5px;
+    background: white;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    text-align: center;
+    height: 100%;
+  }
+
+  .header__name1 {
+    color: black;
+    text-align: center;
+  }
+
+  .header__name2 {
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+  }
+
+  article {
+    padding: 0;
+  }
+
+  .footer-middle,
+  .page7-bottom,
+  .page3-left {
+    text-align: center;
+  }
+
+  .page1__left h2 {
+    font-size: 2rem;
+  }
+
+  .page2 {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .page2__card {
+    padding: 40px;
+  }
+
+  .page3 {
+    flex-direction: column;
+  }
+
+  .page3-left {
+    width: 100%;
+  }
+
+  .page3-right__card {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .page3-right__card img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .page4-logos img {
+    margin: 0 auto;
+  }
+
+  .page5 {
+    padding: 0;
+  }
+
+  .page5__texture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page5-panels {
+    flex-direction: column;
+  }
+
+  .page5-right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page6 {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .page6 > div {
+    width: 100%;
+  }
+
+  .page7-bottom {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .footer-middle {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .footer-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footer-bottom {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-top > span {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .page2-card__desc {
+    font-size: 0.8rem;
+  }
+}
